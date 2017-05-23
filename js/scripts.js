@@ -1,13 +1,29 @@
-$(function() {
-  $("h1").click(function() {
-    alert("This is a header.");
+$(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
 
-  $("p").click(function() {
-    alert("This is a paraphrase.");
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
   });
 
-  $("img").click(function() {
-    alert("This is an image.");
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+
+  $("button#pink").click(function() {
+    $("body").removeClass();
+    $("body").addClass("pink-background");
+  });
+
+  $("button#reset").click(function() {
+    $("body").removeClass();
+  });
+
+  $("#pclick").click(function() {
+    $("#pclick").addClass("highlight-show");
   });
 });

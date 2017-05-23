@@ -1,0 +1,27 @@
+.green-background {
+  background-color: green;
+  color: yellow;
+}
+
+.yellow-background {
+  background-color: yellow;
+  color: green;
+}
+
+.red-background {
+  background-color: red;
+  color: white;
+}
+
+.pink-background {
+  background-color: pink;
+  color: brown;
+}
+
+#pink {
+  background-color: pink;
+}
+
+.highlight-show {
+  background-color: yellow;
+}
